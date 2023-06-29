@@ -24,9 +24,9 @@
     rel="stylesheet">
 </head>
 
-<body id="top">
+<body id="top" onload="myfunction()">
 
-
+ <div class="preloader"></div>
 
   <header class="header" data-header>
     <div class="container">
@@ -600,6 +600,13 @@
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+
+       <script>
+        const loader=document.querySelector(".preloader")
+         function myfunction(){
+           loader.style.display="none";
+      }
+      </script>
 </body>
 
 </html>
