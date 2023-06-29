@@ -76,6 +76,15 @@
 }
 
 
+.preloader{
+  background:#000000 url(/assets/images/7s-195px-unscreen.gif) no-repeat center ;
+  background-size:5%;
+  height:100vh;
+  width:100%;
+  position:fixed;
+  z-index:10;
+}
+
 
 
 
